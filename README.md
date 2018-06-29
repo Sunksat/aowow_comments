@@ -10,3 +10,5 @@ If you intend to use this with a "public" website, go into each account sql file
 The rating sql file contains ratings for each comment, they are a bit higher than the original i.e. instead of a +10 it might be +20, I have not bothered to fix this.
 
 Remember to allow duplicates for your accounts table, else the import will fail (you shouldnt use the same account table as your vanilla server if you are hosting one...)
+
+Adding Allakhazam comments for items - work in progress - account names uploaded 29.06.18
