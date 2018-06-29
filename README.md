@@ -12,3 +12,5 @@ The rating sql file contains ratings for each comment, they are a bit higher tha
 Remember to allow duplicates for your accounts table, else the import will fail (you shouldnt use the same account table as your vanilla server if you are hosting one...)
 
 Adding Allakhazam comments for items - work in progress - account names uploaded 29.06.18
+
+account_alkz <-name of account database in your db
