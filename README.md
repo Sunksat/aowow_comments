@@ -14,3 +14,5 @@ Remember to allow duplicates for your accounts table, else the import will fail 
 Adding Allakhazam comments for items - work in progress - account names uploaded 29.06.18
 
 account_alkz <-name of account database in your db
+
+aowow_comments_alkz <-name of comments table in your db, work in progress
