@@ -16,3 +16,5 @@ Adding Allakhazam comments for items - work in progress - account names uploaded
 account_alkz <-name of account database in your db
 
 aowow_comments_alkz <-name of comments table in your db, work in progress
+
+Extra note, the comments from Allakhazam contain a lot of old bb code that I haven't cleaned, use at your own risk
