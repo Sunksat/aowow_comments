@@ -13,12 +13,12 @@ Remember to allow duplicates for your accounts table, else the import will fail 
 
 Unfortunately the parent / child comments weren't scraped, i.e. a reply to comment will just show as a new comment
 
-Only the first 40 comments pr. page were scraped
+Only the first 40 comments pr. page were scraped for wowhead comments.
 
-Adding Allakhazam comments for items - work in progress - account names uploaded 29.06.18
+----------
 
-account_alkz <-name of account database in your db
+Allakhazam comments for items added, all comments for items between 24-25000 should be included. There were cases were the scraper didnt get everything or comments might be straight up empty - scrapy is still new to me so there's that, might get around to fixing it later. There are no "ratings" for the comments, Allakhazam used scoring such as "decent" etc, plan is to dumb this as well at some point. Should be easy to assing +5 +10 +15 -5 to the text rating. 
+Allakhazam was scraped from archive.org up to and including December 2006 (right before TBC release on Jan 15 2007).
 
-aowow_comments_alkz <-name of comments table in your db, work in progress
 
-Extra note, the comments from Allakhazam contain a lot of old bb code that I haven't cleaned, use at your own risk
+
