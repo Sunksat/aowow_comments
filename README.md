@@ -17,7 +17,7 @@ Only the first 40 comments pr. page were scraped for wowhead comments.
 
 ----------
 
-Allakhazam comments for items added, all comments for items between 24-25000 should be included. There were cases were the scraper didnt get everything or comments might be straight up empty - scrapy is still new to me so there's that, might get around to fixing it later. There are no "ratings" for the comments, Allakhazam used scoring such as "decent" etc, plan is to dumb this as well at some point. Should be easy to assing +5 +10 +15 -5 to the text rating. 
+Allakhazam comments for items added, all comments for items between item number 24-25000 should be included. There were cases were the scraper didnt get everything or comments might be straight up empty - scrapy is still new to me so there's that, might get around to fixing it later. There are no "ratings" for the comments, Allakhazam used scoring such as "decent" etc, plan is to dumb this as well at some point. Should be easy to assing +5 +10 +15 -5 to the text rating. 
 Allakhazam was scraped from archive.org up to and including December 2006 (right before TBC release on Jan 15 2007).
 
 
