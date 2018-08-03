@@ -29,7 +29,7 @@ There are no "ratings" for the comments, Allakhazam used scoring such as "decent
 
 If an entry is missing comments, shoot me the ID of the item, quest or npc and I will see if I can get it scraped.
 
-Allakhazam was scraped from archive.org up to and including December 2007 (right before TBC release on Jan 15 2007).
+Allakhazam was scraped from archive.org up to and including December 2007. Comments made during the TBC era are included since a lot of the website wasn't archived till that point.
 
 To archive.org - thank you for keeping history. I scraped to self-host so as not to hammer your servers, please forgive :)
 
