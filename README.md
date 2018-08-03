@@ -19,7 +19,9 @@ Only the first 40 comments pr. page were scraped for wowhead comments.
 
 Allakhazam scrape:
 Item ID range: 1-25000 - Comments: 83163
+
 Quest ID range: 1-10000 - Comments: 54073
+
 NPC ID range: 1-18000 - Comments: 28520
 
 There are no "ratings" for the comments, Allakhazam used scoring such as "decent" etc, plan is to dump this as well at some point. Should be easy to assign +5 +10 +15 -5 to the text rating.
