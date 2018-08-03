@@ -24,7 +24,7 @@ Item ID range: 1-25000 - Comments: 83163
 
 Quest ID range: 1-10000 - Comments: 54073
 
-NPC ID range: 1-18000 - Comments: 28520
+NPC ID range: 1-18000 - Comments: 29071
 
 There are no "ratings" for the comments, Allakhazam used scoring such as "decent" etc, plan is to dump this as well at some point. Should be easy to assign +5 +10 +15 -5 to the text rating.
 
