@@ -1,7 +1,7 @@
 SET FOREIGN_KEY_CHECKS=0;
 
 -- ----------------------------
--- Table structure for `account`
+-- Table structure for `account_wh`
 -- ----------------------------
 DROP TABLE IF EXISTS `account_wh`;
 CREATE TABLE `account_wh` (
