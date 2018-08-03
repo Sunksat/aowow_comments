@@ -1,6 +1,8 @@
 # aowow_comments
 Comments for AOWOW
 
+aowow_comments_dbvanilla:
+
 /htmlfix contains the same comment sql but with html code changed to BB code i.e. < i > is replaced with [i]
 
 Search & Replace each comment SQL for http://DBURLHERE/ and replace this string with the URL of your website, i.e. http://www.mysuperwowheadvanillawebsite.com/
@@ -16,8 +18,7 @@ Unfortunately the parent / child comments weren't scraped, i.e. a reply to comme
 Only the first 40 comments pr. page were scraped for wowhead comments.
 
 ----------
-
-Allakhazam scrape:
+aowow_allakhazam_comments:
 
 Item ID range: 1-25000 - Comments: 83163
 
