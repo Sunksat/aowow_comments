@@ -18,6 +18,7 @@ Only the first 40 comments pr. page were scraped for wowhead comments.
 ----------
 
 Allakhazam scrape:
+
 Item ID range: 1-25000 - Comments: 83163
 
 Quest ID range: 1-10000 - Comments: 54073
