@@ -1,7 +1,7 @@
 SET FOREIGN_KEY_CHECKS=0;
 
 -- ----------------------------
--- Table structure for `aowow_comments_rates`
+-- Table structure for `aowow_comments_rates_alkz`
 -- ----------------------------
 DROP TABLE IF EXISTS `aowow_comments_rates_alkz`;
 CREATE TABLE `aowow_comments_rates_alkz` (
