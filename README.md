@@ -27,20 +27,34 @@ Quest ID range: 1-10000 - Comments: 54364
 NPC ID range: 1-18000 - Comments: 29005
 
 Allakhazam ratings scrape:
+
 Score: Default = rand 0,2
+
 Score: Decent = rand 3,9
+
 Score: Good = rand 10,40
+
 Score: Excellent = rand 41,82
 
-item_comments_ratings_allakhazam.sql & quest_comments_ratings_allakhazam.sql & npc_comments_ratings_allakhazam.sql contain the logic above for assigning a numerical value to the score of the comment.
 
-item_comments_ratings_allakhazamModyfiableScore.sql & quest_comments_ratings_allakhazamModyfiableScore.sql & npc_comments_ratings_allakhazamModyfiableScore.sql can be modified to a score you see fit (yes, modifiable is spelled wrong).
+item_comments_ratings_allakhazam.sql & 
+quest_comments_ratings_allakhazam.sql & 
+npc_comments_ratings_allakhazam.sql contain the logic above for assigning a numerical value to the score of the comment.
+
+item_comments_ratings_allakhazamModyfiableScore.sql & 
+quest_comments_ratings_allakhazamModyfiableScore.sql & 
+npc_comments_ratings_allakhazamModyfiableScore.sql can be modified to a score you see fit (yes, modifiable is spelled wrong).
 
 Search replace and substitute with a better value:
+
 Score: Default = REMOVEMEDefault(\d)
+
 Score: Decent = REMOVEMEDecent(\d)
+
 Score: Good = REMOVEMEGood(\d)
+
 Score: Excellent = REMOVEMEExcellent(\d)
+
 
 If an entry is missing comments, shoot me the ID of the item, quest or npc and I will see if I can get it scraped.
 
