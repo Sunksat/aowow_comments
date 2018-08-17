@@ -1,0 +1,50 @@
+SET FOREIGN_KEY_CHECKS=0;
+
+-- ----------------------------
+-- Table structure for `account_alkz`
+-- ----------------------------
+DROP TABLE IF EXISTS `account_alkz`;
+CREATE TABLE `account_alkz` (
+  `id` bigint(40) unsigned NOT NULL COMMENT 'Identifier',
+  `username` longtext,
+  `sha_pass_hash` varchar(40) NOT NULL,
+  `gmlevel` tinyint(3) unsigned NOT NULL DEFAULT '0',
+  `sessionkey` longtext,
+  `v` longtext,
+  `s` longtext,
+  `reg_mail` varchar(255) NOT NULL DEFAULT '',
+  `token_key` varchar(100) NOT NULL DEFAULT '',
+  `email` text,
+  `joindate` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  `last_ip` varchar(30) NOT NULL DEFAULT '0.0.0.0',
+  `last_attempt_ip` varchar(15) NOT NULL DEFAULT '127.0.0.1',
+  `last_local_ip` varchar(30) NOT NULL DEFAULT '127.0.0.1',
+  `failed_logins` int(11) unsigned NOT NULL DEFAULT '0',
+  `locked` tinyint(3) unsigned NOT NULL DEFAULT '0',
+  `lock_country` varchar(2) NOT NULL DEFAULT '00',
+  `last_login` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00',
+  `last_pwd_reset` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00',
+  `online` tinyint(4) NOT NULL DEFAULT '0',
+  `expansion` tinyint(3) unsigned NOT NULL DEFAULT '0',
+  `mutetime` bigint(40) NOT NULL DEFAULT '0',
+  `mutereason` varchar(255) NOT NULL DEFAULT '',
+  `muteby` varchar(50) NOT NULL DEFAULT '',
+  `locale` tinyint(3) unsigned NOT NULL DEFAULT '0',
+  `os` varchar(4) NOT NULL DEFAULT '',
+  `recruiter` int(11) NOT NULL DEFAULT '0',
+  `current_realm` tinyint(3) unsigned NOT NULL DEFAULT '0',
+  `banned` tinyint(1) unsigned NOT NULL DEFAULT '0',
+  `mail_verif` tinyint(1) unsigned NOT NULL DEFAULT '0',
+  `remember_token` varchar(100) NOT NULL DEFAULT '',
+  `flags` int(10) unsigned NOT NULL DEFAULT '0',
+  `security` varchar(255) DEFAULT NULL,
+  `pass_verif` varchar(255) DEFAULT NULL COMMENT 'Web recover password',
+  `email_verif` tinyint(1) NOT NULL DEFAULT '0' COMMENT 'Email verification',
+  `email_check` varchar(255) DEFAULT NULL,
+  `nostalrius_token` varchar(255) DEFAULT NULL,
+  `nostalrius_token_enabled` tinyint(1) NOT NULL DEFAULT '0',
+  `nostalrius_email` text,
+  `nostalrius_reason` text,
+  PRIMARY KEY (`id`),
+  KEY `idx_gmlevel` (`gmlevel`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC COMMENT='Account System';

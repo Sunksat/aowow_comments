@@ -1,7 +1,7 @@
 SET FOREIGN_KEY_CHECKS=0;
 
 -- ----------------------------
--- Table structure for `aowow_comments_alkz`
+-- Table structure for `aowow_comments`
 -- ----------------------------
 DROP TABLE IF EXISTS `aowow_comments_alkz`;
 CREATE TABLE `aowow_comments_alkz` (
@@ -15,5 +15,5 @@ CREATE TABLE `aowow_comments_alkz` (
   `edit_userid` bigint(20) unsigned NOT NULL DEFAULT '0' COMMENT 'Last Edit User ID',
   `edit_date` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00' COMMENT 'Last Edit Time',
   `edit_count` int(10) unsigned NOT NULL DEFAULT '0' COMMENT 'Count Of Edits',
-  KEY `id` (`id`) USING BTREE
-) ENGINE=MyISAM AUTO_INCREMENT=2509516 DEFAULT CHARSET=utf8 COMMENT='udwbase Comments Table';
+  UNIQUE KEY `id` (`id`)
+) ENGINE=MyISAM AUTO_INCREMENT=2529760 DEFAULT CHARSET=utf8 COMMENT='udwbase Comments Table';
